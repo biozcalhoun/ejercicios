@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Ejercicio 4</title>
+  <link rel="stylesheet" href="estilos2.css">
+</head>
+
+<body>
+  <main>
+    <form>
+    <div>
+      <label for="Nombre">Nombre:</label>
+      <input type="text" id="Nombre">
+      </div>
+      <div>
+      <label for="Apellidos">Apellidos:</label>
+      <input type="text" id="Apellidos">
+    </div>
+
+    <div>
+      <label for="sexo">Sexo:</label>
+      <input type="radio" id="hombre" name="sexo" value="hombre">
+      <label for="hombre">Hombre</label>
+      <input type="radio" id="mujer" name="sexo" value="mujer">
+      <label for="mujer">Mujer</label>
+    </div>
+
+    <div>
+      <label for="correo">Correo:</label>
+      <input type="text" id="Correo">
+    </div>
+
+    <div>
+      <label for="ciudades">Población:</label>
+      <input list="ciudades" placeholder="Selecciona...">
+      <datalist id="ciudades">
+        <option>Cordoba</option>
+        <option>Buenos Aires</option>
+        <option>Alicante</option>
+      </datalist>
+    </div>
+
+    <div>
+    <label for="description">Descripción:</label>
+    <textarea id="description" name="description" rows="4" cols="50"></textarea>
+    </div>
+
+    <div>
+      <input type="checkbox" id="checkbox_1">
+      <label for="checkbox_1">Deseo recibir información sobre novedades y ofertas.</label>
+    </div>
+
+    <div>
+      <input type="checkbox" id="checkbox_2">
+      <label for="checkbox_1">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobr protección de datos.</label>
+    </div>
+
+    <div>
+      <input type="button" value="Enviar" id="enviar">
+    </div>
+
+    </form>
+  </main>
+</body>
+</html>
